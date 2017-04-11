@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+
+  <title>Todo-app</title>
+  <meta name="viewport" content="width=device-width">
+  <style>
+    [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+      display: none !important;
+    }
+  </style>
+
+</head>
+<body ng-app="todo-app" class="ng-cloak" ng-strict-di>
+<a ui-sref="todo.list" id="link-to-list-page">List</a>
+<a ui-sref="todo.create" id="link-to-create-page">Create</a>
+
+<div ui-view></div>
+</body>
+</html>

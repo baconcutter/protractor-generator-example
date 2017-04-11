@@ -1,0 +1,7 @@
+<h1>Todo list</h1>
+
+<ul id="todo-list">
+  <li ng-repeat="item in $ctrl.list">{{item.title}}</li>
+</ul>
+
+<button ng-click="$ctrl.createTodo()">Create Todo</button>
