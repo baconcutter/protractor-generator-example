@@ -10,7 +10,7 @@
     "test-watch": "karma start --auto-watch --no-single-run"
   },
   "author": "Auke Speksnijder",
-  "license": "LicenseRef-LICENSE",
+  "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
   },
